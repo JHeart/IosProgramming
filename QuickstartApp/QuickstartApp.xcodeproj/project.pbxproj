@@ -7,69 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8987193120C7E65900BBB101 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8987193020C7E65900BBB101 /* AppDelegate.swift */; };
-		8987193320C7E65900BBB101 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8987193220C7E65900BBB101 /* ViewController.swift */; };
-		8987193620C7E65900BBB101 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8987193420C7E65900BBB101 /* Main.storyboard */; };
-		8987193820C7E66000BBB101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8987193720C7E66000BBB101 /* Assets.xcassets */; };
-		8987193B20C7E66000BBB101 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8987193920C7E66000BBB101 /* LaunchScreen.storyboard */; };
-		8987194620C7E66000BBB101 /* QuickstartAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8987194520C7E66000BBB101 /* QuickstartAppTests.swift */; };
-		8987195120C7E66000BBB101 /* QuickstartAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8987195020C7E66000BBB101 /* QuickstartAppUITests.swift */; };
-		F09672977B9CF0A1FEB8DEED /* Pods_QuickstartApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F9B8814CEA9875C1757B39 /* Pods_QuickstartApp.framework */; };
+		27220AFEE373E4955E36FB46 /* Pods_QuickstartApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E27FA7AF4C2999893071C7 /* Pods_QuickstartApp.framework */; };
+		8991348220CFF6C500E46BA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8991348120CFF6C500E46BA4 /* AppDelegate.swift */; };
+		8991348420CFF6C500E46BA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8991348320CFF6C500E46BA4 /* ViewController.swift */; };
+		8991348720CFF6C500E46BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8991348520CFF6C500E46BA4 /* Main.storyboard */; };
+		8991348920CFF6C900E46BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8991348820CFF6C900E46BA4 /* Assets.xcassets */; };
+		8991348C20CFF6C900E46BA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8991348A20CFF6C900E46BA4 /* LaunchScreen.storyboard */; };
+		8991349720CFF6C900E46BA4 /* QuickstartAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8991349620CFF6C900E46BA4 /* QuickstartAppTests.swift */; };
+		899134A220CFF6C900E46BA4 /* QuickstartAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899134A120CFF6C900E46BA4 /* QuickstartAppUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8987194220C7E66000BBB101 /* PBXContainerItemProxy */ = {
+		8991349320CFF6C900E46BA4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8987192520C7E65900BBB101 /* Project object */;
+			containerPortal = 8991347620CFF6C500E46BA4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8987192C20C7E65900BBB101;
+			remoteGlobalIDString = 8991347D20CFF6C500E46BA4;
 			remoteInfo = QuickstartApp;
 		};
-		8987194D20C7E66000BBB101 /* PBXContainerItemProxy */ = {
+		8991349E20CFF6C900E46BA4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8987192520C7E65900BBB101 /* Project object */;
+			containerPortal = 8991347620CFF6C500E46BA4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8987192C20C7E65900BBB101;
+			remoteGlobalIDString = 8991347D20CFF6C500E46BA4;
 			remoteInfo = QuickstartApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8987192D20C7E65900BBB101 /* QuickstartApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickstartApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8987193020C7E65900BBB101 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8987193220C7E65900BBB101 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8987193520C7E65900BBB101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8987193720C7E66000BBB101 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8987193A20C7E66000BBB101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8987193C20C7E66000BBB101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8987194120C7E66000BBB101 /* QuickstartAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickstartAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8987194520C7E66000BBB101 /* QuickstartAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickstartAppTests.swift; sourceTree = "<group>"; };
-		8987194720C7E66000BBB101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8987194C20C7E66000BBB101 /* QuickstartAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickstartAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8987195020C7E66000BBB101 /* QuickstartAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickstartAppUITests.swift; sourceTree = "<group>"; };
-		8987195220C7E66000BBB101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC8550FF99F04EABFB7BDF8A /* Pods-QuickstartApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickstartApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickstartApp/Pods-QuickstartApp.debug.xcconfig"; sourceTree = "<group>"; };
-		CF45C4808F1E9135AD6F1C12 /* Pods-QuickstartApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickstartApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickstartApp/Pods-QuickstartApp.release.xcconfig"; sourceTree = "<group>"; };
-		D6F9B8814CEA9875C1757B39 /* Pods_QuickstartApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickstartApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5099916AD0868CB3CBB16E99 /* Pods-QuickstartApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickstartApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickstartApp/Pods-QuickstartApp.release.xcconfig"; sourceTree = "<group>"; };
+		8991347E20CFF6C500E46BA4 /* QuickstartApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickstartApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8991348120CFF6C500E46BA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8991348320CFF6C500E46BA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8991348620CFF6C500E46BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8991348820CFF6C900E46BA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8991348B20CFF6C900E46BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8991348D20CFF6C900E46BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8991349220CFF6C900E46BA4 /* QuickstartAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickstartAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8991349620CFF6C900E46BA4 /* QuickstartAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickstartAppTests.swift; sourceTree = "<group>"; };
+		8991349820CFF6C900E46BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8991349D20CFF6C900E46BA4 /* QuickstartAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickstartAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		899134A120CFF6C900E46BA4 /* QuickstartAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickstartAppUITests.swift; sourceTree = "<group>"; };
+		899134A320CFF6C900E46BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98E27FA7AF4C2999893071C7 /* Pods_QuickstartApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickstartApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75E7F0ED99988F77B7793CA /* Pods-QuickstartApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickstartApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickstartApp/Pods-QuickstartApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8987192A20C7E65900BBB101 /* Frameworks */ = {
+		8991347B20CFF6C500E46BA4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F09672977B9CF0A1FEB8DEED /* Pods_QuickstartApp.framework in Frameworks */,
+				27220AFEE373E4955E36FB46 /* Pods_QuickstartApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8987193E20C7E66000BBB101 /* Frameworks */ = {
+		8991348F20CFF6C900E46BA4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8987194920C7E66000BBB101 /* Frameworks */ = {
+		8991349A20CFF6C900E46BA4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -79,72 +79,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		33B7E5760185C3635F0149A3 /* Pods */ = {
+		3382D73CE27E8276133A0F52 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AC8550FF99F04EABFB7BDF8A /* Pods-QuickstartApp.debug.xcconfig */,
-				CF45C4808F1E9135AD6F1C12 /* Pods-QuickstartApp.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		361F39BB161B72A088F37FA2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D6F9B8814CEA9875C1757B39 /* Pods_QuickstartApp.framework */,
+				98E27FA7AF4C2999893071C7 /* Pods_QuickstartApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8987192420C7E65900BBB101 = {
+		354FDAD2292F6FFDD8432286 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8987192F20C7E65900BBB101 /* QuickstartApp */,
-				8987194420C7E66000BBB101 /* QuickstartAppTests */,
-				8987194F20C7E66000BBB101 /* QuickstartAppUITests */,
-				8987192E20C7E65900BBB101 /* Products */,
-				33B7E5760185C3635F0149A3 /* Pods */,
-				361F39BB161B72A088F37FA2 /* Frameworks */,
+				C75E7F0ED99988F77B7793CA /* Pods-QuickstartApp.debug.xcconfig */,
+				5099916AD0868CB3CBB16E99 /* Pods-QuickstartApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8991347520CFF6C500E46BA4 = {
+			isa = PBXGroup;
+			children = (
+				8991348020CFF6C500E46BA4 /* QuickstartApp */,
+				8991349520CFF6C900E46BA4 /* QuickstartAppTests */,
+				899134A020CFF6C900E46BA4 /* QuickstartAppUITests */,
+				8991347F20CFF6C500E46BA4 /* Products */,
+				354FDAD2292F6FFDD8432286 /* Pods */,
+				3382D73CE27E8276133A0F52 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		8987192E20C7E65900BBB101 /* Products */ = {
+		8991347F20CFF6C500E46BA4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8987192D20C7E65900BBB101 /* QuickstartApp.app */,
-				8987194120C7E66000BBB101 /* QuickstartAppTests.xctest */,
-				8987194C20C7E66000BBB101 /* QuickstartAppUITests.xctest */,
+				8991347E20CFF6C500E46BA4 /* QuickstartApp.app */,
+				8991349220CFF6C900E46BA4 /* QuickstartAppTests.xctest */,
+				8991349D20CFF6C900E46BA4 /* QuickstartAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8987192F20C7E65900BBB101 /* QuickstartApp */ = {
+		8991348020CFF6C500E46BA4 /* QuickstartApp */ = {
 			isa = PBXGroup;
 			children = (
-				8987193020C7E65900BBB101 /* AppDelegate.swift */,
-				8987193220C7E65900BBB101 /* ViewController.swift */,
-				8987193420C7E65900BBB101 /* Main.storyboard */,
-				8987193720C7E66000BBB101 /* Assets.xcassets */,
-				8987193920C7E66000BBB101 /* LaunchScreen.storyboard */,
-				8987193C20C7E66000BBB101 /* Info.plist */,
+				8991348120CFF6C500E46BA4 /* AppDelegate.swift */,
+				8991348320CFF6C500E46BA4 /* ViewController.swift */,
+				8991348520CFF6C500E46BA4 /* Main.storyboard */,
+				8991348820CFF6C900E46BA4 /* Assets.xcassets */,
+				8991348A20CFF6C900E46BA4 /* LaunchScreen.storyboard */,
+				8991348D20CFF6C900E46BA4 /* Info.plist */,
 			);
 			path = QuickstartApp;
 			sourceTree = "<group>";
 		};
-		8987194420C7E66000BBB101 /* QuickstartAppTests */ = {
+		8991349520CFF6C900E46BA4 /* QuickstartAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				8987194520C7E66000BBB101 /* QuickstartAppTests.swift */,
-				8987194720C7E66000BBB101 /* Info.plist */,
+				8991349620CFF6C900E46BA4 /* QuickstartAppTests.swift */,
+				8991349820CFF6C900E46BA4 /* Info.plist */,
 			);
 			path = QuickstartAppTests;
 			sourceTree = "<group>";
 		};
-		8987194F20C7E66000BBB101 /* QuickstartAppUITests */ = {
+		899134A020CFF6C900E46BA4 /* QuickstartAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				8987195020C7E66000BBB101 /* QuickstartAppUITests.swift */,
-				8987195220C7E66000BBB101 /* Info.plist */,
+				899134A120CFF6C900E46BA4 /* QuickstartAppUITests.swift */,
+				899134A320CFF6C900E46BA4 /* Info.plist */,
 			);
 			path = QuickstartAppUITests;
 			sourceTree = "<group>";
@@ -152,16 +152,16 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8987192C20C7E65900BBB101 /* QuickstartApp */ = {
+		8991347D20CFF6C500E46BA4 /* QuickstartApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8987195520C7E66000BBB101 /* Build configuration list for PBXNativeTarget "QuickstartApp" */;
+			buildConfigurationList = 899134A620CFF6C900E46BA4 /* Build configuration list for PBXNativeTarget "QuickstartApp" */;
 			buildPhases = (
-				9E4E379501D188D1F3411A6A /* [CP] Check Pods Manifest.lock */,
-				8987192920C7E65900BBB101 /* Sources */,
-				8987192A20C7E65900BBB101 /* Frameworks */,
-				8987192B20C7E65900BBB101 /* Resources */,
-				6B4E3232A1BC5B939C1C2688 /* [CP] Embed Pods Frameworks */,
-				2E169593C4F6F1D430C35461 /* [CP] Copy Pods Resources */,
+				EA3BDBA1EBBFD64B31380AED /* [CP] Check Pods Manifest.lock */,
+				8991347A20CFF6C500E46BA4 /* Sources */,
+				8991347B20CFF6C500E46BA4 /* Frameworks */,
+				8991347C20CFF6C500E46BA4 /* Resources */,
+				AB1714B3C58034E2F893B979 /* [CP] Embed Pods Frameworks */,
+				F181D0F3680AE7D572903306 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,69 +169,69 @@
 			);
 			name = QuickstartApp;
 			productName = QuickstartApp;
-			productReference = 8987192D20C7E65900BBB101 /* QuickstartApp.app */;
+			productReference = 8991347E20CFF6C500E46BA4 /* QuickstartApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8987194020C7E66000BBB101 /* QuickstartAppTests */ = {
+		8991349120CFF6C900E46BA4 /* QuickstartAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8987195820C7E66000BBB101 /* Build configuration list for PBXNativeTarget "QuickstartAppTests" */;
+			buildConfigurationList = 899134A920CFF6C900E46BA4 /* Build configuration list for PBXNativeTarget "QuickstartAppTests" */;
 			buildPhases = (
-				8987193D20C7E66000BBB101 /* Sources */,
-				8987193E20C7E66000BBB101 /* Frameworks */,
-				8987193F20C7E66000BBB101 /* Resources */,
+				8991348E20CFF6C900E46BA4 /* Sources */,
+				8991348F20CFF6C900E46BA4 /* Frameworks */,
+				8991349020CFF6C900E46BA4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8987194320C7E66000BBB101 /* PBXTargetDependency */,
+				8991349420CFF6C900E46BA4 /* PBXTargetDependency */,
 			);
 			name = QuickstartAppTests;
 			productName = QuickstartAppTests;
-			productReference = 8987194120C7E66000BBB101 /* QuickstartAppTests.xctest */;
+			productReference = 8991349220CFF6C900E46BA4 /* QuickstartAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8987194B20C7E66000BBB101 /* QuickstartAppUITests */ = {
+		8991349C20CFF6C900E46BA4 /* QuickstartAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8987195B20C7E66000BBB101 /* Build configuration list for PBXNativeTarget "QuickstartAppUITests" */;
+			buildConfigurationList = 899134AC20CFF6C900E46BA4 /* Build configuration list for PBXNativeTarget "QuickstartAppUITests" */;
 			buildPhases = (
-				8987194820C7E66000BBB101 /* Sources */,
-				8987194920C7E66000BBB101 /* Frameworks */,
-				8987194A20C7E66000BBB101 /* Resources */,
+				8991349920CFF6C900E46BA4 /* Sources */,
+				8991349A20CFF6C900E46BA4 /* Frameworks */,
+				8991349B20CFF6C900E46BA4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8987194E20C7E66000BBB101 /* PBXTargetDependency */,
+				8991349F20CFF6C900E46BA4 /* PBXTargetDependency */,
 			);
 			name = QuickstartAppUITests;
 			productName = QuickstartAppUITests;
-			productReference = 8987194C20C7E66000BBB101 /* QuickstartAppUITests.xctest */;
+			productReference = 8991349D20CFF6C900E46BA4 /* QuickstartAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8987192520C7E65900BBB101 /* Project object */ = {
+		8991347620CFF6C500E46BA4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = ipp13;
 				TargetAttributes = {
-					8987192C20C7E65900BBB101 = {
+					8991347D20CFF6C500E46BA4 = {
 						CreatedOnToolsVersion = 9.3;
 					};
-					8987194020C7E66000BBB101 = {
+					8991349120CFF6C900E46BA4 = {
 						CreatedOnToolsVersion = 9.3;
-						TestTargetID = 8987192C20C7E65900BBB101;
+						TestTargetID = 8991347D20CFF6C500E46BA4;
 					};
-					8987194B20C7E66000BBB101 = {
+					8991349C20CFF6C900E46BA4 = {
 						CreatedOnToolsVersion = 9.3;
-						TestTargetID = 8987192C20C7E65900BBB101;
+						TestTargetID = 8991347D20CFF6C500E46BA4;
 					};
 				};
 			};
-			buildConfigurationList = 8987192820C7E65900BBB101 /* Build configuration list for PBXProject "QuickstartApp" */;
+			buildConfigurationList = 8991347920CFF6C500E46BA4 /* Build configuration list for PBXProject "QuickstartApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -239,37 +239,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 8987192420C7E65900BBB101;
-			productRefGroup = 8987192E20C7E65900BBB101 /* Products */;
+			mainGroup = 8991347520CFF6C500E46BA4;
+			productRefGroup = 8991347F20CFF6C500E46BA4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8987192C20C7E65900BBB101 /* QuickstartApp */,
-				8987194020C7E66000BBB101 /* QuickstartAppTests */,
-				8987194B20C7E66000BBB101 /* QuickstartAppUITests */,
+				8991347D20CFF6C500E46BA4 /* QuickstartApp */,
+				8991349120CFF6C900E46BA4 /* QuickstartAppTests */,
+				8991349C20CFF6C900E46BA4 /* QuickstartAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8987192B20C7E65900BBB101 /* Resources */ = {
+		8991347C20CFF6C500E46BA4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8987193B20C7E66000BBB101 /* LaunchScreen.storyboard in Resources */,
-				8987193820C7E66000BBB101 /* Assets.xcassets in Resources */,
-				8987193620C7E65900BBB101 /* Main.storyboard in Resources */,
+				8991348C20CFF6C900E46BA4 /* LaunchScreen.storyboard in Resources */,
+				8991348920CFF6C900E46BA4 /* Assets.xcassets in Resources */,
+				8991348720CFF6C500E46BA4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8987193F20C7E66000BBB101 /* Resources */ = {
+		8991349020CFF6C900E46BA4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8987194A20C7E66000BBB101 /* Resources */ = {
+		8991349B20CFF6C900E46BA4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -279,25 +279,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2E169593C4F6F1D430C35461 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-QuickstartApp/Pods-QuickstartApp-resources.sh",
-				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickstartApp/Pods-QuickstartApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6B4E3232A1BC5B939C1C2688 /* [CP] Embed Pods Frameworks */ = {
+		AB1714B3C58034E2F893B979 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,7 +303,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickstartApp/Pods-QuickstartApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9E4E379501D188D1F3411A6A /* [CP] Check Pods Manifest.lock */ = {
+		EA3BDBA1EBBFD64B31380AED /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -339,62 +321,80 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F181D0F3680AE7D572903306 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QuickstartApp/Pods-QuickstartApp-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickstartApp/Pods-QuickstartApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8987192920C7E65900BBB101 /* Sources */ = {
+		8991347A20CFF6C500E46BA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8987193320C7E65900BBB101 /* ViewController.swift in Sources */,
-				8987193120C7E65900BBB101 /* AppDelegate.swift in Sources */,
+				8991348420CFF6C500E46BA4 /* ViewController.swift in Sources */,
+				8991348220CFF6C500E46BA4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8987193D20C7E66000BBB101 /* Sources */ = {
+		8991348E20CFF6C900E46BA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8987194620C7E66000BBB101 /* QuickstartAppTests.swift in Sources */,
+				8991349720CFF6C900E46BA4 /* QuickstartAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8987194820C7E66000BBB101 /* Sources */ = {
+		8991349920CFF6C900E46BA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8987195120C7E66000BBB101 /* QuickstartAppUITests.swift in Sources */,
+				899134A220CFF6C900E46BA4 /* QuickstartAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8987194320C7E66000BBB101 /* PBXTargetDependency */ = {
+		8991349420CFF6C900E46BA4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8987192C20C7E65900BBB101 /* QuickstartApp */;
-			targetProxy = 8987194220C7E66000BBB101 /* PBXContainerItemProxy */;
+			target = 8991347D20CFF6C500E46BA4 /* QuickstartApp */;
+			targetProxy = 8991349320CFF6C900E46BA4 /* PBXContainerItemProxy */;
 		};
-		8987194E20C7E66000BBB101 /* PBXTargetDependency */ = {
+		8991349F20CFF6C900E46BA4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8987192C20C7E65900BBB101 /* QuickstartApp */;
-			targetProxy = 8987194D20C7E66000BBB101 /* PBXContainerItemProxy */;
+			target = 8991347D20CFF6C500E46BA4 /* QuickstartApp */;
+			targetProxy = 8991349E20CFF6C900E46BA4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8987193420C7E65900BBB101 /* Main.storyboard */ = {
+		8991348520CFF6C500E46BA4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8987193520C7E65900BBB101 /* Base */,
+				8991348620CFF6C500E46BA4 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		8987193920C7E66000BBB101 /* LaunchScreen.storyboard */ = {
+		8991348A20CFF6C900E46BA4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8987193A20C7E66000BBB101 /* Base */,
+				8991348B20CFF6C900E46BA4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -402,7 +402,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8987195320C7E66000BBB101 /* Debug */ = {
+		899134A420CFF6C900E46BA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -462,7 +462,7 @@
 			};
 			name = Debug;
 		};
-		8987195420C7E66000BBB101 /* Release */ = {
+		899134A520CFF6C900E46BA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -516,9 +516,9 @@
 			};
 			name = Release;
 		};
-		8987195620C7E66000BBB101 /* Debug */ = {
+		899134A720CFF6C900E46BA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC8550FF99F04EABFB7BDF8A /* Pods-QuickstartApp.debug.xcconfig */;
+			baseConfigurationReference = C75E7F0ED99988F77B7793CA /* Pods-QuickstartApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,9 +534,9 @@
 			};
 			name = Debug;
 		};
-		8987195720C7E66000BBB101 /* Release */ = {
+		899134A820CFF6C900E46BA4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF45C4808F1E9135AD6F1C12 /* Pods-QuickstartApp.release.xcconfig */;
+			baseConfigurationReference = 5099916AD0868CB3CBB16E99 /* Pods-QuickstartApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -552,7 +552,7 @@
 			};
 			name = Release;
 		};
-		8987195920C7E66000BBB101 /* Debug */ = {
+		899134AA20CFF6C900E46BA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -572,7 +572,7 @@
 			};
 			name = Debug;
 		};
-		8987195A20C7E66000BBB101 /* Release */ = {
+		899134AB20CFF6C900E46BA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -592,7 +592,7 @@
 			};
 			name = Release;
 		};
-		8987195C20C7E66000BBB101 /* Debug */ = {
+		899134AD20CFF6C900E46BA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -611,7 +611,7 @@
 			};
 			name = Debug;
 		};
-		8987195D20C7E66000BBB101 /* Release */ = {
+		899134AE20CFF6C900E46BA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -633,43 +633,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8987192820C7E65900BBB101 /* Build configuration list for PBXProject "QuickstartApp" */ = {
+		8991347920CFF6C500E46BA4 /* Build configuration list for PBXProject "QuickstartApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8987195320C7E66000BBB101 /* Debug */,
-				8987195420C7E66000BBB101 /* Release */,
+				899134A420CFF6C900E46BA4 /* Debug */,
+				899134A520CFF6C900E46BA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8987195520C7E66000BBB101 /* Build configuration list for PBXNativeTarget "QuickstartApp" */ = {
+		899134A620CFF6C900E46BA4 /* Build configuration list for PBXNativeTarget "QuickstartApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8987195620C7E66000BBB101 /* Debug */,
-				8987195720C7E66000BBB101 /* Release */,
+				899134A720CFF6C900E46BA4 /* Debug */,
+				899134A820CFF6C900E46BA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8987195820C7E66000BBB101 /* Build configuration list for PBXNativeTarget "QuickstartAppTests" */ = {
+		899134A920CFF6C900E46BA4 /* Build configuration list for PBXNativeTarget "QuickstartAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8987195920C7E66000BBB101 /* Debug */,
-				8987195A20C7E66000BBB101 /* Release */,
+				899134AA20CFF6C900E46BA4 /* Debug */,
+				899134AB20CFF6C900E46BA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8987195B20C7E66000BBB101 /* Build configuration list for PBXNativeTarget "QuickstartAppUITests" */ = {
+		899134AC20CFF6C900E46BA4 /* Build configuration list for PBXNativeTarget "QuickstartAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8987195C20C7E66000BBB101 /* Debug */,
-				8987195D20C7E66000BBB101 /* Release */,
+				899134AD20CFF6C900E46BA4 /* Debug */,
+				899134AE20CFF6C900E46BA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8987192520C7E65900BBB101 /* Project object */;
+	rootObject = 8991347620CFF6C500E46BA4 /* Project object */;
 }

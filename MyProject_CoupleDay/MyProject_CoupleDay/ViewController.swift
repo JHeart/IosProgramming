@@ -10,6 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var leftTextField: UITextField!
+    @IBOutlet weak var rightTextField: UITextField!
+    @IBOutlet weak var dateTextField: UITextField!
+    @IBOutlet weak var birthDayTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
